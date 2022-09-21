@@ -1,0 +1,271 @@
+* {
+    padding:0;
+    margin:0;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    min-height: 100vh;
+    background: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+   
+}
+
+.conteiner{  
+    max-width: 1330px;
+    margin: 0 auto;
+    height: 100vh;  
+}
+
+.embrulho{
+    height: 90%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    margin: 40px 0;
+    padding: 0 2rem;
+}
+
+.conteudo{
+    display: flex;
+    
+    gap: 40px;
+}
+
+.texto{
+    margin: 0 2rem;
+}
+
+.titulo{
+    color: white;
+    font-size: 44px;
+    line-height: 54px;
+    margin: 40px 0;
+}
+
+.info{
+    color: white;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 22px 0;
+}
+
+.entre{
+    width: 150px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 16px;
+    color: hsl(257, 40%, 49%);
+    box-sizing: border-box;
+    border-radius: 28px;
+    border: none;
+    box-shadow: 2 2 2 2;
+}
+
+.entre:hover{
+    background: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+}
+
+.social{
+    text-align: right;
+}
+
+.social a i{
+    color: white;
+    font-size: 19px;
+    position: relative;
+}
+
+.social a:not(:first-child){
+    margin-left: 2rem;
+}
+
+.social a i::after{
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    left: -14px;
+    bottom: -13px;
+}
+
+.social a:nth-child(2){
+    margin-left: 40px;
+}
+
+.social a i:hover{
+    color:hsl(300, 69%, 71%) ;
+    cursor: pointer;
+}
+
+.social a i:hover::after{
+    border-color: hsl(300, 69%, 71%);
+}
+
+@media only screen and (max-width: 1440px) {
+    .imagem-principal img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .conteudo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .texto h1{
+        font-size: 26px;
+    }
+
+    .social{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+    .entre{
+        padding: 10px 70px;
+    }
+}
+
+/*css do cadastro*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.conteiner-2{  
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100vh;  
+}
+
+.embrulho-2{
+    height: 90%;
+    display: flex;
+    row-gap: 60px;
+    flex-direction: column ;
+    justify-content: center;
+    margin: 40px 0;
+    padding: 0 2rem;
+}
+
+.cabecalho-2{
+    margin: 0 49px;
+}
+
+.conteudo-2{
+    display: flex;
+    gap: 40px;
+    padding: 2rem;
+}
+
+
+
+.gratis{
+    font-size: 14px;
+}
+
+.texto-2{
+    padding: 34px 80px;
+    align-self: center;
+}
+
+.titulo-2{
+    color: white;
+    font-size:  46px;
+    font-family:'Poppins', sans-serif;
+    padding: 34px 36px;
+}
+
+.info-3{
+    color: white;
+    padding: 8px 34px;
+}
+
+.casadinha{
+    width: 100%;
+}
+
+.info-2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 1px hsla(0, 0%, 17%, 0.493);
+    background: hsl(248, 40%, 22%);
+    width: 100%;
+    padding: 16px;
+    align-self: end;
+}
+
+.cadastro{
+    width: 100%;
+    background: white;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 1px hsla(0, 0%, 17%, 0.493);
+}
+
+form{
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 21px 24px;
+    padding: 26px 0;
+    width: auto;
+}
+
+.input-padrao{
+    margin: 0 0 10px;
+    padding: 18px 25px;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+
+.enviar{
+    font-size: 16px;
+    background: hsl(154, 59%, 51%);
+    padding: 16px;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 5px 1px hsl(154, 38%, 41%);
+}
+
+.enviar:hover{
+    background:hsl(154, 87%, 64%) ;
+    cursor: pointer;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px;
+}
+
+.tracado{
+    font-size: 10px;
+    color:hsl(246, 25%, 77%) ;
+}
+
+.termo{
+    color: hsl(0, 100%, 74%);
+}
