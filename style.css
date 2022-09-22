@@ -269,3 +269,31 @@ form{
 .termo{
     color: hsl(0, 100%, 74%);
 }
+
+@media only screen and (max-width: 768px) {
+    .embrulho-2{
+        width: 100%;
+    }
+
+    .conteudo-2{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cabecalho-2{
+        padding: 47% 0 0 0 ;
+    }
+
+    .texto-2{
+        padding: 0 0;
+    }
+
+   .titulo-2{
+    font-size: 30px;
+    padding: 0 0;
+   }
+
+   .info-2{
+    padding: 11%;
+   }
+}
