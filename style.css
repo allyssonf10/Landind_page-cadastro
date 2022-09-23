@@ -271,11 +271,12 @@ form{
 
 @media only screen and (max-width: 768px) {
     .conteiner-2{
-        width: 80%;
-        margin: 38px;
+        width: 100%;
+        margin: -25px;
     }
     .embrulho-2{
         width: 100%;
+        row-gap: 0;
     }
 
     .conteudo-2{
