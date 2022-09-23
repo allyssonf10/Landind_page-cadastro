@@ -135,9 +135,7 @@ body{
         font-size: 15px;
     }
 
-    .entre{
-        padding: 10px 70px;
-    }
+    
 }
 
 /*css do cadastro*/
@@ -272,6 +270,7 @@ form{
 }
 
 @media only screen and (max-width: 768px) {
+    
     .embrulho-2{
         width: 100%;
     }
