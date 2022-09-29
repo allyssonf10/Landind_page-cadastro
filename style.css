@@ -325,11 +325,7 @@ form{
 
 @media screen and (max-width:375px) {
 
-    .cabecalho-2{
-        padding: 60% 0 0 0 ;
-        display: flex;
-        justify-content: center;
-    }
+    
 }
 
 @media screen and (max-width:320px) {
