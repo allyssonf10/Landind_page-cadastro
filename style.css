@@ -114,6 +114,11 @@ body{
 }
 
 @media only screen and (max-width: 1440px) {
+    .conteudo{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
     .imagem-principal img{
         width: 100%;
     }
@@ -121,12 +126,14 @@ body{
 
 @media only screen and (max-width: 768px) {
     .conteudo{
+        display: flex;
         flex-direction: column;
         text-align: center;
     }
 
     .texto h1{
         font-size: 26px;
+        line-height: 32px;
     }
 
     .social{
